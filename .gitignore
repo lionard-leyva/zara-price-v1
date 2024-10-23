@@ -22,3 +22,37 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore SonarLint files
+.idea/sonarlint/
+
+# Ignore build outputs
+build/
+out/
+
+# Ignore maven/gradle wrapper logs
+*.log
+
+# Ignore application configs (optionally if you don't want to commit dev config files)
+application-dev.yml
+
+# Ignore other files as per your environment
+hs_err_pid*
+replay_pid*
+
+# Ignore Gradle build files
+.gradle/
+build/
+
+# Ignore gradle-wrapper properties and binaries
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore Gradle Project-specific files
+*.lock
+*.bat
+*.bin
